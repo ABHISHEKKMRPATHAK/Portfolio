@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Welcome from './components/Welcome.jsx';
 import CoreConcepts from './components/CoreConcepts.jsx';
 import './App.css';
-import reactImg from './assets/pic1.png';
+import reactImg from './assets/components.png';
 
  
 
@@ -15,7 +15,7 @@ function App() {
   <section id ="core-concepts">
     <h2>Core Concepts</h2>
     <ul>
-      <CoreConcepts title="Componemts" description = "Asd jhdksj jdkskj" img="" />
+      <CoreConcepts title="Componemts" description = "Asd jhdksj jdkskj" img={reactImg} />
       <CoreConcepts />
       <CoreConcepts />
     </ul>
