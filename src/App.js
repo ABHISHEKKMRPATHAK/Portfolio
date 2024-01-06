@@ -7,10 +7,14 @@ import reactImg from './assets/components.png';
 import { CORE_CONCEPTS } from './data.js';
 import propsImg from './assets/config.png';
 import TabButton from './components/TabButton.jsx';
- 
 
 function App() {
+  function HandleClick(selectedButtons){
+    console.log(selectedButtons);
+   }
+  
   return (
+    
  <div>
   <Header />
 <main>
@@ -24,13 +28,12 @@ function App() {
   </section>
   <section id ="Examples">
     <menu>
-    <TabButton>Components</TabButton>
-    <TabButton>JSX</TabButton>
-    <TabButton>Props</TabButton>
-    <TabButton>State</TabButton>
+    <TabButton onSelect={() =>HandleClick("components")}>Components</TabButton>
+    <TabButton onSelect={() =>HandleClick("JSX")}>JSX</TabButton>
+    <TabButton onSelect={() =>HandleClick("Props")}>Props</TabButton>
+    <TabButton onSelect={() =>HandleClick("State")}>State</TabButton>
     </menu>
   </section>
-
 </main>
  </div>   
   );
