@@ -7,6 +7,7 @@ import reactImg from './assets/components.png';
 import { CORE_CONCEPTS } from './data.js';
 import propsImg from './assets/config.png';
 import TabButton from './components/TabButton.jsx';
+import RegistrationForm from './components/RegistrationForm.jsx';
 
 function App() {
   function HandleClick(selectedButtons){
@@ -33,6 +34,9 @@ function App() {
     <TabButton onSelect={() =>HandleClick("Props")}>Props</TabButton>
     <TabButton onSelect={() =>HandleClick("State")}>State</TabButton>
     </menu>
+  </section>
+  <section>
+    <RegistrationForm />
   </section>
 </main>
  </div>   
