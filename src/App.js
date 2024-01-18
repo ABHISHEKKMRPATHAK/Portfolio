@@ -7,7 +7,7 @@ import reactImg from './assets/components.png';
 import { CORE_CONCEPTS } from './data.js';
 import propsImg from './assets/config.png';
 import TabButton from './components/TabButton.jsx';
-import Canvas from './components/Canvas.jsx';
+import Gallery from './components/Gallery.jsx';
 
 function App() {
   function HandleClick(selectedButtons){
@@ -36,7 +36,7 @@ function App() {
     </menu>
   </section>
   <section>
-    <Canvas />
+    <Gallery />
   </section>
 </main>
  </div>   
