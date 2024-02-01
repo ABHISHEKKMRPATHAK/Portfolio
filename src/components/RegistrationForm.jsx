@@ -30,7 +30,7 @@ export default function RegistrationForm(){
         </label>
 <label for="bio">Provide a bio:
     <textarea id="bio" rows={3} cols={30} placeholder="I like coding in the beach....." name="bio">
-
+AB
     </textarea>
 </label>
     <input type="submit" value="Submit"></input>
