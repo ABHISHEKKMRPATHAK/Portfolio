@@ -23,7 +23,7 @@ button3.onclick = fightDragon;
 
 
 function update(location) {
-
+const 
 }
 
 function goTown() {
@@ -55,9 +55,5 @@ function fightDragon() {
 }
 
 function buyHealth() {
-
-}
-
-function buyWeapon() {
 
 }
