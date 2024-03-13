@@ -62,3 +62,32 @@ const min = 10
 const max = 20
 
 //console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+
+
+                                                            /* Dates */
+ let dateNow = new Date()
+// console.log(dateNow);  
+//console.log(dateNow.toString());      
+//console.log(dateNow.toDateString());    
+//console.log(dateNow.toLocaleString())     
+  //console.log(typeof(dateNow));
+  
+  // let myCreatedDate = new Date(2023, 0, 23)
+// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
+// let myCreatedDate = new Date("2023-01-14")
+let myCreatedDate = new Date("01-14-2023")
+// console.log(myCreatedDate.toLocaleString());
+
+let timeStamp = Date.now();
+//console.log(timeStamp)
+
+//console.log(myCreatedDate.getTime());
+//console.log(Math.floor(timeStamp/1000));
+
+//console.log(dateNow.getMonth())
+//console.log(dateNow.getDay());
+
+console.log(dateNow.toLocaleString('default',{
+    weekday:'long'
+}))
