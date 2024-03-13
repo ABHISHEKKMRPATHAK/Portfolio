@@ -26,7 +26,7 @@ Prefer not to use var because of issue in block scope and functional scope  */
                                  
                                         /* String */
 
-const schoolName = new String("Vivekanand public school")
+let schoolName = new String("Vivekanand public school")
 //console.log(schoolName[0]);
 //console.log(schoolName.length);
 //console.log(schoolName.charAt(5));
@@ -34,3 +34,31 @@ const schoolName = new String("Vivekanand public school")
 //console.log(schoolName.substring(0,8));
 //let newArr=(schoolName.slice(5,24))
 //console.log(newArr);
+//console.log(schoolName.trim());
+//console.log(schoolName.replace('Vivek','dayan'));
+//console.log(schoolName.includes('nand'));
+//console.log(schoolName.split('p'));
+
+
+                               /* Maths */
+let balance = new Number(1000000.77687)
+//console.log(balance);
+//console.log(balance.toString().length)
+//console.log(balance.toFixed(1));
+//console.log(balance.toPrecision(6));
+//console.log(balance.toLocaleString('en-IN'));
+
+//console.log(Math);
+//console.log(Math.abs(-8));
+//console.log(Math.round(8.2));
+//console.log(Math.floor(8.9));
+//console.log(Math.ceil(8.1));
+//console.log(Math.max(4,3,6,8));
+//console.log(Math.min(4,3,6,8));
+//console.log(Math.random());
+//console.log(Math.random()*10);
+
+const min = 10
+const max = 20
+
+//console.log(Math.floor(Math.random() * (max - min + 1)) + min)
