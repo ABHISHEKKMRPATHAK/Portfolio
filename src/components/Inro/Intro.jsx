@@ -8,21 +8,17 @@ function Intro() {
   return (
     <section id="intro">
       <div className="introContent">
-        <span className="hello">Hello</span>
+        <span className="hello">Hello,</span>
         <span className="intorText">
-          {" "}
-          I'm <span className="introName">Smith</span>
-          <br /> website designer
-        </span>
+          I'm <span className="introName">Abhishek Kr Pathak</span>
+          <br /> Frontend Developer</span>
         <p className="introPara">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          industry. <br/>Lorem Ipsum has been the industry's standard dummy text ever
         </p>
-        <button className="btn"><img src={intro} alt="" />Hire Me</button>
+        <button className="btn"><img src={intro} alt="Hire" className="btnImg"/>Hire Me</button>
       </div>
-      <img src={bg} alt="" className="bg" />
+      <img src={bg} alt="Profile" className="bg" />
     </section>
   );
 }
