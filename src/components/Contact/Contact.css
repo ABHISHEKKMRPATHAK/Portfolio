@@ -1,4 +1,4 @@
-.client{
+#client{
     min-height: calc(100vh-4rem);
     width: 100vw;
     max-width: 60rem;
@@ -38,7 +38,7 @@
     height: 4rem;
 }
 
-.contact{
+#contact{
     min-height: calc(100vh-4rem);
     width: 100vw;
     max-width: 60rem;

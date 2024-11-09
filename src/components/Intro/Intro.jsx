@@ -10,7 +10,7 @@ function Intro() {
       <div className="introContent">
         <span className="hello">Hello,</span>
         <span className="intorText">
-          I'm <span className="introName">Abhishek Kr Pathak</span>
+          I'm <span className="introName">Abhishek Kumar Pathak</span>
           <br /> Frontend Developer</span>
         <p className="introPara">
           Lorem Ipsum is simply dummy text of the printing and typesetting
